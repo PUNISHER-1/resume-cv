@@ -1,0 +1,406 @@
+body {
+    background-color: #3C4048;
+    text-align: center;
+    margin: 0;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+a{
+    color: deepskyblue;
+    margin: 10px 20px;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+}
+a:hover{color:#FFB9B9;}
+
+
+/* *******************   TOP CONTAINER   ******************* */
+.top-container{position: relative;}
+.background-photo{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.info{
+    color: white;
+    width: 280px;
+    position: absolute;
+    top: 10px;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: auto
+}
+.name{
+    font-family: 'Stick No Bills', sans-serif;
+    text-align: left;
+    margin-bottom: -20px;
+    margin-top: 0px;
+    font-size: 593.75%;
+}
+.tag-line{font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+
+/* *******************   MIDDLE CONTAINER   ******************* */
+.hi{
+    font-family: 'Bebas Neue', cursive;
+    color: #C8FFD4;
+    font-size: 50px;
+}
+.para{
+    font-family: 'Kalam', cursive;
+    color: #8EC3B0;
+    font-size: 20px;
+}
+.st{
+    font-family: 'Oswald', sans-serif;
+    color: #9ED5C5;
+    font-size: 30px;
+}
+.profile{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.profile-photo{
+    height: 300px;
+    width: 300px;
+}
+.skills{
+    margin: 60px auto 60px auto;
+    /* padding-bottom: 30px; */
+}
+.skill-row1{
+    width: 50%; 
+    margin: 60px auto 60px auto;
+    text-align: left; 
+}
+.coding-img{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.skill-row2{width: 50%;
+    margin: 60px auto 60px auto;
+    text-align: left;
+    padding-top: 60px; 
+}
+.gaming-img{
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+}
+.skill-row3{width: 50%;
+    margin: 60px auto 60px auto;
+    text-align: left;
+    padding-top: 60px; 
+}
+.engg-img{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.more{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    background: #34d3d9;
+    background-image: -webkit-linear-gradient(top, #34d3d9, #2980b9);
+    background-image: -moz-linear-gradient(top, #34d3d9, #2980b9);
+    background-image: -ms-linear-gradient(top, #34d3d9, #2980b9);
+    background-image: -o-linear-gradient(top, #34d3d9, #2980b9);
+    background-image: linear-gradient(to bottom, #34d3d9, #2980b9);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+} 
+.btn:hover{
+    background: #344752;
+    background-image: -webkit-linear-gradient(top, #344752, #34d3d9);
+    background-image: -moz-linear-gradient(top, #344752, #34d3d9);
+    background-image: -ms-linear-gradient(top, #344752, #34d3d9);
+    background-image: -o-linear-gradient(top, #344752, #34d3d9);
+    background-image: linear-gradient(to bottom, #344752, #34d3d9);
+    text-decoration: none;
+}
+.btn1{
+    background: #34d3d9;
+    background-image: -webkit-linear-gradient(top, #34d3d9, #2980b9);
+    background-image: -moz-linear-gradient(top, #34d3d9, #2980b9);
+    background-image: -ms-linear-gradient(top, #34d3d9, #2980b9);
+    background-image: -o-linear-gradient(top, #34d3d9, #2980b9);
+    background-image: linear-gradient(to bottom, #34d3d9, #2980b9);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+} 
+.btn1:hover{
+    background: #344752;
+    background-image: -webkit-linear-gradient(top, #344752, #34d3d9);
+    background-image: -moz-linear-gradient(top, #344752, #34d3d9);
+    background-image: -ms-linear-gradient(top, #344752, #34d3d9);
+    background-image: -o-linear-gradient(top, #344752, #34d3d9);
+    background-image: linear-gradient(to bottom, #344752, #34d3d9);
+    text-decoration: none;
+}
+
+
+/* *******************   BOTTOM CONTAINER   ******************* */
+.bottom-container{
+    background-color: #00ABB3;
+    padding: 50px 0 20px;
+}
+.footer-link{
+    color: #CDFCF6;
+}
+.copy-rt{color: #CDFCF6;}
+
+
+/* *******************   MORE HTML FILE  ******************* */
+
+.education{
+    position: relative;
+    margin-top: 0;
+}
+.istc{
+    position: absolute;
+    width: 40%;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.istc-img{
+    width: 20%;
+    float: left;
+}
+.ignou{
+    padding-top: 30px;
+    position: absolute;
+    width: 40%;
+    margin-left: 50%;
+    padding-left: 100px;
+}
+.ignou-img{
+    width: 20%;
+    float: left;
+}
+.h-r{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin-top: 280px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skill-set{
+    margin-top: 30px;
+    position: relative;
+}
+.programming{
+    position: absolute;
+    text-align: left;
+    margin-left: 90px;
+    padding-top: 30px;
+}
+.ele-skill{
+    position: absolute;
+    margin-left: 650px;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.machining{
+    position: absolute;
+    margin-left: 1200px;
+    padding-top: 30px;
+}
+.hr2{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin-top: 380px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* *******************   ANIMATED BACKGROUND   ******************* */
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:60px;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:200vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0.01%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 1;
+        border-radius: 50%;
+    }
+
+}
