@@ -196,19 +196,19 @@ a:hover{color:#FFB9B9;}
 .istc{
     position: absolute;
     width: 40%;
-    margin-left: 100px;
-    padding-top: 30px;
+    margin-left: 625%;
+    padding-top: 187.5%;
 }
 .istc-img{
     width: 20%;
     float: left;
 }
 .ignou{
-    padding-top: 30px;
+    padding-top: 187.5%;
     position: absolute;
     width: 40%;
     margin-left: 50%;
-    padding-left: 100px;
+    padding-left: 625%;
 }
 .ignou-img{
     width: 20%;
@@ -218,38 +218,38 @@ a:hover{color:#FFB9B9;}
     border: dotted #EAF6F6 6px;
     border-bottom: none;
     width: 4%;
-    margin-top: 280px;
-    margin-bottom: 80px;
+    margin-top: 1750%;
+    margin-bottom: 500%;
     margin-left: auto;
     margin-right: auto;
 }
 .skill-set{
-    margin-top: 30px;
+    margin-top: 187.5%;
     position: relative;
 }
 .programming{
     position: absolute;
     text-align: left;
-    margin-left: 90px;
-    padding-top: 30px;
+    margin-left: 562.5%;
+    padding-top: 187.5%;
 }
 .ele-skill{
     position: absolute;
-    margin-left: 650px;
+    margin-left: 4062.5%;
     margin-right: auto;
-    padding-top: 30px;
+    padding-top: 187.5%;
 }
 .machining{
     position: absolute;
-    margin-left: 1200px;
-    padding-top: 30px;
+    margin-left: 7500%;
+    padding-top: 187.5%;
 }
 .hr2{
     border: dotted #EAF6F6 6px;
     border-bottom: none;
     width: 4%;
-    margin-top: 380px;
-    margin-bottom: 80px;
+    margin-top: 2375%;
+    margin-bottom: 500%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -258,8 +258,8 @@ a:hover{color:#FFB9B9;}
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -270,14 +270,14 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:60px;
+    top:375%;
     
 }
 
 .context h1{
     text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 312.5%;
 }
 
 
@@ -285,7 +285,7 @@ body{
     background: #4e54c8;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
-    height:200vh;
+    height:100vh;
     
    
 }
@@ -303,8 +303,8 @@ body{
     position: absolute;
     display: block;
     list-style: none;
-    width: 20px;
-    height: 20px;
+    width: 125%;
+    height: 125%;
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
@@ -313,76 +313,76 @@ body{
 
 .circles li:nth-child(1){
     left: 25%;
-    width: 80px;
-    height: 80px;
+    width: 500%;
+    height: 500%;
     animation-delay: 0s;
 }
 
 
 .circles li:nth-child(2){
     left: 10%;
-    width: 20px;
-    height: 20px;
+    width: 125%;
+    height: 125%;
     animation-delay: 2s;
     animation-duration: 12s;
 }
 
 .circles li:nth-child(3){
     left: 70%;
-    width: 20px;
-    height: 20px;
+    width: 125%;
+    height: 125%;
     animation-delay: 4s;
 }
 
 .circles li:nth-child(4){
     left: 40%;
-    width: 60px;
-    height: 60px;
+    width: 375%;
+    height: 375%;
     animation-delay: 0s;
     animation-duration: 18s;
 }
 
 .circles li:nth-child(5){
     left: 65%;
-    width: 20px;
-    height: 20px;
+    width: 125%;
+    height: 125%;
     animation-delay: 0s;
 }
 
 .circles li:nth-child(6){
     left: 75%;
-    width: 110px;
-    height: 110px;
+    width: 687.5%;
+    height: 687.5%;
     animation-delay: 3s;
 }
 
 .circles li:nth-child(7){
     left: 35%;
-    width: 150px;
-    height: 150px;
+    width: 937.5%;
+    height: 937.5%;
     animation-delay: 7s;
 }
 
 .circles li:nth-child(8){
     left: 50%;
-    width: 25px;
-    height: 25px;
+    width: 156.25%;
+    height: 156.25%;
     animation-delay: 15s;
     animation-duration: 45s;
 }
 
 .circles li:nth-child(9){
     left: 20%;
-    width: 15px;
-    height: 15px;
+    width: 93.75%;
+    height: 93.75%;
     animation-delay: 2s;
     animation-duration: 35s;
 }
 
 .circles li:nth-child(10){
     left: 85%;
-    width: 150px;
-    height: 150px;
+    width: 937.5%;
+    height: 937.%;
     animation-delay: 0s;
     animation-duration: 11s;
 }
@@ -391,7 +391,7 @@ body{
 
 @keyframes animate {
 
-    0.01%{
+    0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 0;
